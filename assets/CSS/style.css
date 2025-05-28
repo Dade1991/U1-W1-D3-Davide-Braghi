@@ -94,6 +94,10 @@ h1 {
   line-height: 0.8em;
 }
 
+#features p {
+  color: rgb(148, 3, 3);
+}
+
 #section-2 {
   width: 100%;
   margin-top: 2em;
