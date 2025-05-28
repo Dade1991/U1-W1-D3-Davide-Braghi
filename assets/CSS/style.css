@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap");
+
+body {
+  width: 100%;
+  font-family: "Ancizar Serif", serif;
+}
+
+main,
+footer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  height: 1px;
+  border-top: 1px solid #14a9ff;
+  margin: 2em 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+}
+
+#logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2em;
+}
+
+#logo-text {
+  display: flex;
+  justify-content: center;
+  border-top-style: solid;
+  border-width: 2px;
+  border-color: rgb(255, 179, 65);
+  background-color: rgb(250, 234, 210);
+  padding-top: 1.1em;
+  padding-bottom: 1.1em;
+  color: rgb(0, 82, 64);
+  font-size: 1.2em;
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.8em;
+}
+
+#section-1 {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.section-1-info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#main-img {
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  text-align: center;
+  color: rgb(90, 90, 90);
+  text-shadow: 5px;
+}
+
+#main-img-pic {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px;
+  margin-bottom: 1em;
+}
+
+#features {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding-left: 1.5em;
+  border-left-style: solid;
+  border-left-width: 2px;
+  border-color: rgb(255, 179, 65);
+  line-height: 0.8em;
+}
+
+#section-2 {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+#section-2 li {
+  line-height: 2em;
+}
+
+#section-3 {
+  width: 100%;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+footer {
+  padding: 5px;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 5px 5px 10px;
+  margin-top: 3em;
+  margin-bottom: 2em;
+}

@@ -4,44 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css"
   </head>
   <body>
     <header>
-      <div>
+      <div id="logo">
         <img src="./assets/logo.png" alt="Website logo" />
       </div>
-      <div>
+      <div id="logo-text">
         <p>Part of <b>A SIMPLY FABULOUS THANKSGIVING</b></p>
       </div>
     </header>
+
     <main>
       <section id="section-1">
         <div>
-          <h1>Focaccia with Caramelized Onions, Cranberries and Brie</h1>
-          <p>
-            Wow your taste buds with this festive focaccia appetizer topped with
-            sweet caramelized onions, tart cranberries and creamy brie. It will
-            become your new favourite holiday starter!
-          </p>
+          <div class="section-info-1">
+            <h1>Focaccia with Caramelized Onions, Cranberries and Brie</h1>
+          </div>
+          <div class="section-info-1">
+            <p>
+              Wow your taste buds with this festive focaccia appetizer topped
+              with sweet caramelized onions, tart cranberries and creamy brie.
+              It will become your new favourite holiday starter!
+            </p>
+          </div>
         </div>
-        <div>
-          <figure>
-            <img src="./assets/focaccia.png" alt="" />
-            <figcaption>Image: Sally Vegas</figcaption>
-          </figure>
+        <div id="main-img">
+          <img id="main-img-pic" src="./assets/focaccia.png" alt="" />
+          <div>
+            <p>Image: Sally Vegas</p>
+          </div>
         </div>
-        <div>
+        <div id="features">
           <p>FEATURE IN:</p>
-          <p><a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a></p>
+          <br />
+          <a href="#">Fresh Cranberry Recipes That Go Beyond Sauce</a>
         </div>
       </section>
+
       <section id="section-2">
         <div>
           <h3>Ingredients</h3>
           <hr />
-          <div class="ingredients-main">
+          <div>
             <h5>For the Focaccia:</h5>
-            <ul class="ingredients-tabs">
+            <ul>
               <li>4 cups (500g) all-purpose flour</li>
               <li>1 1/2 teaspoon instant yeast</li>
               <li>1 1/2 teaspoon salt</li>
@@ -64,31 +72,33 @@
           </div>
         </div>
       </section>
+
       <section id="section-3">
         <div>
           <h3>Method</h3>
           <hr />
           <ol>
             <li>
-              <h5>Make the focaccia dough</h5>
-              <p>
-                In a medium sized mixing bowl, or in a stand mixer ith a paddle
-                attachments, mix toghter all the dough ingredients until the
-                flour is fully absorbed. You don't need to actually knead the
-                dough, though I sometimes knead it a few times in the bowl when
-                mixing by hand to incorporate the last of the flour...
-              </p>
+              <div>
+                <h5>Make the focaccia dough</h5>
+                <p>
+                  In a medium sized mixing bowl, or in a stand mixer ith a
+                  paddle attachments, mix toghter all the dough ingredients
+                  until the flour is fully absorbed. You don't need to actually
+                  knead the dough, though I sometimes knead it a few times in
+                  the bowl when mixing by hand to incorporate the last of the
+                  flour...
+                </p>
+              </div>
             </li>
           </ol>
         </div>
       </section>
     </main>
+
     <footer>
       <div>
         <p>Read more on <a href="#">Simply recipes</a></p>
-      </div>
-      <div>
-        <a id="top" href="#top">Back to top</a>
       </div>
     </footer>
   </body>
