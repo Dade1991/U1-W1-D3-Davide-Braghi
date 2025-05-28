@@ -33,6 +33,10 @@ a {
   margin-bottom: 2em;
 }
 
+#logo-pic {
+  width: 300px;
+}
+
 #logo-text {
   display: flex;
   justify-content: center;
